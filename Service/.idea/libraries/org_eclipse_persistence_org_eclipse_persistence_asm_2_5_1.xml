@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.eclipse.persistence:org.eclipse.persistence.asm:2.5.1" type="repository">
+    <properties maven-id="org.eclipse.persistence:org.eclipse.persistence.asm:2.5.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.persistence.asm-2.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.persistence.asm-2.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

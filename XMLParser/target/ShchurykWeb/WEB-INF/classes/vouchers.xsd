@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/vouchers"
+        xmlns:tns="http://www.example.com/vouchers"
+        elementFormDefault="qualified" >
+    <element name="tourist_vouchers">
+        <complexType>
+            <sequence>
+                <element ref="tns:voucher"
+                         maxOccurs="unbounded" />
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="voucher" type="tns:Voucher" abstract="true"/>
+	<element name="excursion" type="tns:Excursion" substitutionGroup="tns:voucher"/>
+    <element name="travel" type="tns:Travel" substitutionGroup="tns:voucher"/>
+		
+    <complexType name="Voucher">
+        <sequence>
+            <element name="id" type="ID"/>
+            <element name="country" type="string"/>
+            <element name="number-days" type="positiveInteger"/>
+            <element name="cost" type="positiveInteger"/>
+        </sequence>
+        <attribute name="transport-type" type="tns:Transport-Type" use="optional"/>
+    </complexType>
+
+    <simpleType name="Apartment-Type">
+        <restriction base="string">
+            <enumeration value="single"></enumeration>
+            <enumeration value="double"></enumeration>
+            <enumeration value="triple"></enumeration>
+        </restriction>
+    </simpleType>
+	
+    <complexType name="Excursion">
+        <complexContent>
+            <extension base="tns:Voucher">
+                <sequence>
+                    <element name="place" type="string"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Travel">
+        <complexContent>
+            <extension base="tns:Voucher">
+                <sequence>
+                    <element name="hotel" type="tns:Hotel"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+	<simpleType name="Transport-Type">
+        <restriction base="string">
+            <enumeration value="air"></enumeration>
+            <enumeration value="train"></enumeration>
+            <enumeration value="ship"></enumeration>
+        </restriction>
+    </simpleType>
+	
+    <complexType name="Hotel">
+        <sequence>
+            <element name="meal" type="tns:Meal"/>
+            <element name="type" type="tns:Apartment-Type"/>
+			<element name="tv" type="boolean"/>
+			<element name="air-conditioning" type="boolean"/>
+        </sequence>
+        <attribute name="name" type="string" use="required"/>
+        <attribute name="stars" use="required">
+            <simpleType>
+                <restriction base="positiveInteger">
+                    <pattern value="[1-5]"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+
+    <simpleType name="Meal">
+        <restriction base="string">
+            <enumeration value="HB"></enumeration>
+            <enumeration value="BB"></enumeration>
+            <enumeration value="AL"></enumeration>
+        </restriction>
+    </simpleType>
+	
+</schema>

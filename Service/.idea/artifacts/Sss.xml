@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Sss">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sss</output-path>
+    <root id="archive" name="Sss.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Serve" />
+          <element id="jpa-descriptors" facet="Serve/jpa/JPA" />
+          <element id="module-output" name="Middle" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="org.hibernate:hibernate-core:5.2.14.Final" />
+          <element id="library" level="project" name="org.eclipse.persistence.jpa-2.5.1" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6 (2)" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/Serve/webapp/web.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>

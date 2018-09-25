@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ShchurykWeb:war">
+    <output-path>$PROJECT_DIR$/../ShchurykWeb/target</output-path>
+    <root id="archive" name="ShchurykWeb.war">
+      <element id="artifact" artifact-name="ShchurykWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

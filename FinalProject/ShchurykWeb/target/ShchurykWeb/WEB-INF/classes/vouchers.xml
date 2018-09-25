@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tourist-vouchers
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.example.com/vouchers"
+        xsi:noNamespaceSchemaLocation="vouchers.xsd">
+    <excursion transport-type="air">
+        <id>ID-1</id>
+        <country>Italy</country>
+        <days-number>5</days-number>
+        <cost>2359</cost>
+        <place>"Saint Angel's Castle"</place>
+    </excursion>
+    <travel transport-type="train">
+        <id>ID-2</id>
+        <country>Ukraine</country>
+        <days-number>18</days-number>
+        <cost>1499</cost>
+        <hotel stars="4" login="Mariletta">
+            <meal>BB</meal>
+            <type>double</type>
+            <tv>true</tv>
+			<air-conditioning>true</air-conditioning>
+        </hotel>
+    </travel>
+	<travel transport-type="ship">
+        <id>ID-3</id>
+        <country>Zimbabve</country>
+        <days-number>14</days-number>
+        <cost>799</cost>
+        <hotel stars="2" login="Hillside Manor">
+            <meal>BB</meal>
+            <type>single</type>
+            <tv>false</tv>
+			<air-conditioning>false</air-conditioning>
+        </hotel>
+    </travel>
+	<travel transport-type="air">
+        <id>ID-4</id>
+        <country>China</country>
+        <days-number>20</days-number>
+        <cost>1799</cost>
+        <hotel stars="4" login="Shanghai City Central Youth hostel">
+            <meal>HB</meal>
+            <type>triple</type>
+            <tv>true</tv>
+			<air-conditioning>true</air-conditioning>
+        </hotel>
+    </travel>
+	<travel transport-type="train">
+        <id>ID-5</id>
+        <country>Russia</country>
+        <days-number>20</days-number>
+        <cost>1999</cost>
+        <hotel stars="4" login="Alean Family Resort Spa Riviera">
+            <meal>HB</meal>
+            <type>double</type>
+            <tv>true</tv>
+			<air-conditioning>false</air-conditioning>
+        </hotel>
+    </travel>
+	<excursion transport-type="air">
+        <id>ID-6</id>
+        <country>China</country>
+        <days-number>7</days-number>
+        <cost>2199</cost>
+        <place>"the great Wall of China"</place>
+    </excursion>
+	<travel transport-type="train">
+        <id>ID-7</id>
+        <country>Tailand</country>
+        <days-number>20</days-number>
+        <cost>1699</cost>
+        <hotel stars="4" login="Holiday Inn Resort Phi Phi Island">
+            <meal>BB</meal>
+            <type>double</type>
+            <tv>true</tv>
+			<air-conditioning>true</air-conditioning>
+        </hotel>
+    </travel>
+	<travel transport-type="train">
+        <id>ID-8</id>
+        <country>Turkey</country>
+        <days-number>16</days-number>
+        <cost>2299</cost>
+        <hotel stars="3" login="Ersoy Hotel">
+            <meal>AL</meal>
+            <type>double</type>
+            <tv>true</tv>
+			<air-conditioning>true</air-conditioning>
+        </hotel>
+    </travel>
+	<excursion transport-type="train">
+        <id>ID-9</id>
+        <country>Belarus</country>
+        <days-number>14</days-number>
+        <cost>756</cost>
+        <place>"floating hotel in Tour"</place>
+    </excursion>
+	<excursion transport-type="train">
+        <id>ID-10</id>
+        <country>Ukraine</country>
+        <days-number>3</days-number>
+        <cost>319</cost>
+        <place>"Chernobyl Exclusion Zone"</place>
+    </excursion>
+	<excursion transport-type="train">
+        <id>ID-11</id>
+        <country>Russia</country>
+        <days-number>7</days-number>
+        <cost>405</cost>
+        <place>"Karelia"</place>
+    </excursion>
+	<travel transport-type="train">
+        <id>ID-12</id>
+        <country>German</country>
+        <days-number>20</days-number>
+        <cost>2699</cost>
+        <hotel stars="5" login="Dorint Am Nurburgring Hocheifel">
+            <meal>BB</meal>
+            <type>double</type>
+            <tv>true</tv>
+			<air-conditioning>true</air-conditioning>
+        </hotel>
+    </travel>
+	<travel transport-type="train">
+        <id>ID-13</id>
+        <country>Spain</country>
+        <days-number>14</days-number>
+        <cost>3069</cost>
+        <hotel stars="5" login="Vincci Seleccion Posada del Patio">
+            <meal>AL</meal>
+            <type>double</type>
+            <tv>true</tv>
+			<air-conditioning>true</air-conditioning>
+        </hotel>
+    </travel>
+	<travel transport-type="air">
+        <id>ID-14</id>
+        <country>France</country>
+        <days-number>14</days-number>
+        <cost>2285</cost>
+        <hotel stars="5" login="Les cabanes de Labrousse">
+            <meal>BB</meal>
+            <type>double</type>
+            <tv>true</tv>
+			<air-conditioning>true</air-conditioning>
+        </hotel>
+    </travel>
+	<excursion transport-type="air">
+        <id>ID-15</id>
+        <country>USA</country>
+        <days-number>8</days-number>
+        <cost>1740</cost>
+        <place>"The nature reserve of the USA"</place>
+    </excursion>
+	<excursion transport-type="train">
+        <id>ID-16</id>
+        <country>Belarus</country>
+        <days-number>2</days-number>
+        <cost>264</cost>
+        <place>"Mozyr"</place>
+    </excursion>
+</tourist-vouchers>

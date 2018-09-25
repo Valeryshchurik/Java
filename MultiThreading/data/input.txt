@@ -1,0 +1,19 @@
+3
+priority_1_client_0 1
+priority_1_client_1 1
+priority_1_client_2 1
+priority_0_CLIENT_3 0
+priority_0_CLIENT_4 0
+priority_1_client_5 0
+priority_0_CLIENT_6 0
+priority_0_CLIENT_7 0
+priority_1_client_8 1
+priority_0_CLIENT_9 0
+priority_1_client_10 1
+priority_1_client_11 1
+priority_1_client_12 1
+priority_1_client_13 1
+priority_0_CLIENT_14 0
+priority_0_CLIENT_15 0
+priority_0_CLIENT_16 0
+priority_0_CLIENT_17 0

@@ -1,0 +1,223 @@
+2018-02-24 00:01:26 [main] DEBUG  reader.DataReader - File opened successfully.
+2018-02-24 00:01:26 [main] DEBUG  reader.DataReader - File opened successfully.
+2018-02-24 00:01:26 [main] DEBUG  action.MathExpressionReplacer - Increment values were counted.
+2018-02-24 00:01:26 [main] DEBUG  action.MathExpressionReplacer - Decrement values were counted.
+2018-02-24 00:01:26 [main] DEBUG  action.MathExpressionReplacer - Text was successfully cleaned.
+2018-02-24 00:01:26 [main] DEBUG  parser.TextParser - Parsing to paragraphs.
+2018-02-24 00:01:26 [main] DEBUG  parser.ParagraphParser - Parsing to sentences.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Parsing to lexemes.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Punctuation mark parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Math expression parsed.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Calculating expression: 13+2
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Parsing to polish notation.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Expression parsed successfully.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Building final string.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Output reverse polish expression: 13 2 +
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Expression calculating result: 15.0
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Math expression parsed.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Calculating expression: 3+5
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Parsing to polish notation.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Expression parsed successfully.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Building final string.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Output reverse polish expression: 3 5 +
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Expression calculating result: 8.0
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Math expression parsed.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Calculating expression: 6+9*(3-4)
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Parsing to polish notation.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Expression parsed successfully.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Building final string.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Output reverse polish expression: 6 9 3 4 - * +
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Expression calculating result: -3.0
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Lexemes were parsed..
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Parsing to lexemes.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Math expression parsed.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Calculating expression: 5*(1*2*(3*(4*(5-3+4)-3)-2)-1)
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Parsing to polish notation.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Expression parsed successfully.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Building final string.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Output reverse polish expression: 5 1 2 * 3 4 5 3 - 4 + * 3 - * 2 - * 1 - *
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Expression calculating result: 605.0
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Lexemes were parsed..
+2018-02-24 00:01:26 [main] DEBUG  parser.ParagraphParser - Sentences were parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.ParagraphParser - Parsing to sentences.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Parsing to lexemes.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Lexemes were parsed..
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Parsing to lexemes.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Math expression parsed.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Calculating expression: (71-(2*2*(3*(2-1/2*2)-2)-10/2))*4
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Parsing to polish notation.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Expression parsed successfully.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Building final string.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Output reverse polish expression: 71 2 2 * 3 2 1 2 / 2 * - * 2 - * 10 2 / - - 4 *
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Expression calculating result: 288.0
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Lexemes were parsed..
+2018-02-24 00:01:26 [main] DEBUG  parser.ParagraphParser - Sentences were parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.ParagraphParser - Parsing to sentences.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Parsing to lexemes.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Math expression parsed.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Calculating expression: (1/2*(2+5*2-3)-5)*1200
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Parsing to polish notation.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Expression parsed successfully.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Building final string.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionConverter - Output reverse polish expression: 1 2 / 2 5 2 * + 3 - * 5 - 1200 *
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Adding data to array.
+2018-02-24 00:01:26 [main] DEBUG  interpreter.ExpressionInterpreter - Expression calculating result: -600.0
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Lexemes were parsed..
+2018-02-24 00:01:26 [main] DEBUG  parser.ParagraphParser - Sentences were parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.ParagraphParser - Parsing to sentences.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Parsing to lexemes.
+2018-02-24 00:01:26 [main] DEBUG  parser.LeafParser - Word parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.SentenceParser - Lexemes were parsed..
+2018-02-24 00:01:26 [main] DEBUG  parser.ParagraphParser - Sentences were parsed.
+2018-02-24 00:01:26 [main] DEBUG  parser.TextParser - Paragraphs were parsed.
+2018-02-24 00:01:26 [main] DEBUG  reader.DataReader - File opened successfully.
